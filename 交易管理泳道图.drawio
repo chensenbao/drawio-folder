@@ -136,7 +136,7 @@
         <mxCell id="hmxmpI2ok9hBaWAOTlfv-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="hmxmpI2ok9hBaWAOTlfv-3" source="hmxmpI2ok9hBaWAOTlfv-68" target="hmxmpI2ok9hBaWAOTlfv-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hmxmpI2ok9hBaWAOTlfv-68" value="发起分账" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="hmxmpI2ok9hBaWAOTlfv-3">
+        <mxCell id="hmxmpI2ok9hBaWAOTlfv-68" value="发起取消分账" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="hmxmpI2ok9hBaWAOTlfv-3">
           <mxGeometry x="210" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hmxmpI2ok9hBaWAOTlfv-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="hmxmpI2ok9hBaWAOTlfv-3" source="hmxmpI2ok9hBaWAOTlfv-73" target="hmxmpI2ok9hBaWAOTlfv-77">
