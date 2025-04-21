@@ -96,8 +96,20 @@
         <mxCell id="hmxmpI2ok9hBaWAOTlfv-45" value="新增退款信息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="hmxmpI2ok9hBaWAOTlfv-3">
           <mxGeometry x="250" y="722.5" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="hmxmpI2ok9hBaWAOTlfv-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="hmxmpI2ok9hBaWAOTlfv-3" source="hmxmpI2ok9hBaWAOTlfv-59" target="hmxmpI2ok9hBaWAOTlfv-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hmxmpI2ok9hBaWAOTlfv-59" value="获取分账信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hmxmpI2ok9hBaWAOTlfv-3">
           <mxGeometry x="39.999999999999545" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hmxmpI2ok9hBaWAOTlfv-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="hmxmpI2ok9hBaWAOTlfv-3" source="hmxmpI2ok9hBaWAOTlfv-64" target="hmxmpI2ok9hBaWAOTlfv-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hmxmpI2ok9hBaWAOTlfv-64" value="存在当天信息" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="hmxmpI2ok9hBaWAOTlfv-3">
+          <mxGeometry x="25" y="1180" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hmxmpI2ok9hBaWAOTlfv-68" value="发起分账" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="hmxmpI2ok9hBaWAOTlfv-3">
+          <mxGeometry x="210" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hmxmpI2ok9hBaWAOTlfv-4" value="订单dao" style="swimlane;startSize=20;html=1;" vertex="1" parent="hmxmpI2ok9hBaWAOTlfv-1">
           <mxGeometry x="600" y="20" width="120" height="11460" as="geometry" />
@@ -144,6 +156,9 @@
         <mxCell id="hmxmpI2ok9hBaWAOTlfv-26" value="外部平台" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="hmxmpI2ok9hBaWAOTlfv-24">
           <mxGeometry x="25" y="320" width="100" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="hmxmpI2ok9hBaWAOTlfv-70" value="外部系统" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="hmxmpI2ok9hBaWAOTlfv-24">
+          <mxGeometry x="14.999999999999545" y="1260" width="120" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="hmxmpI2ok9hBaWAOTlfv-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="hmxmpI2ok9hBaWAOTlfv-1" source="hmxmpI2ok9hBaWAOTlfv-21" target="hmxmpI2ok9hBaWAOTlfv-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -183,6 +198,21 @@
         <mxCell id="hmxmpI2ok9hBaWAOTlfv-63" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;是&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hmxmpI2ok9hBaWAOTlfv-62">
           <mxGeometry x="-0.4" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hmxmpI2ok9hBaWAOTlfv-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="hmxmpI2ok9hBaWAOTlfv-1" source="hmxmpI2ok9hBaWAOTlfv-64" target="hmxmpI2ok9hBaWAOTlfv-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hmxmpI2ok9hBaWAOTlfv-67" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;否&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hmxmpI2ok9hBaWAOTlfv-66">
+          <mxGeometry x="-0.5592" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hmxmpI2ok9hBaWAOTlfv-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="hmxmpI2ok9hBaWAOTlfv-1" source="hmxmpI2ok9hBaWAOTlfv-68" target="hmxmpI2ok9hBaWAOTlfv-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="1324" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
